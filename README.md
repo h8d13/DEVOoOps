@@ -31,7 +31,7 @@ Setup & Usage
 > Sets-up local bin and example script `hello`
 > Firefox profiles: Ublock and about:blank default
 
->[!TIP]
+>[!NOTE]
 > Any of them can be removed by simply deleting in the `k/` [dir](./k/) 
 
 Other tweaks & Demo
