@@ -1,0 +1,4 @@
+#!/bin/bash
+export T_USER=${SUDO_USER:-$USER}
+export U_HOME="/home/$T_USER"
+

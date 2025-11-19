@@ -30,3 +30,10 @@ Other tweaks & Demo
 - Zsh integration to VSCodium terminal
 
 [Demo.webm](https://github.com/user-attachments/assets/72da25db-1a02-4ba3-a091-fc8dfb809380)
+
+Further tools
+---
+
+- https://open-vsx.org/vscode/item?itemName=timonwong.shellcheck
+- https://open-vsx.org/vscode/item?itemName=ms-pyright.pyright
+
