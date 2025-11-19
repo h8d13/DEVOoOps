@@ -1,6 +1,5 @@
 #!/bin/bash
-export T_USER=${SUDO_USER:-$USER}
-export U_HOME="/home/$T_USER"
+export U_HOME="$HOME"
 export C_HOME="$U_HOME/.config/"
 export L_HOME="$U_HOME/.local/"
 
