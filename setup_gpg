@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#gpg --full-generate-key 
+
+## Walk through steps
+
+#gpg --list-keys
+#gpg --armor --export YOUR_KEY_ID
+
+##Paste it into github or similar service
+
+#git config --global user.email "you@example.com"
+#git config --global user.name "Your Name"
