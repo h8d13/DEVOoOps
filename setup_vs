@@ -18,11 +18,6 @@ echo "Downloading VSCodium version: $VERSION"
 TEMP_FILE="/tmp/VSCodium-linux-x64-${VERSION}.tar.gz"
 wget "$DOWNLOAD_URL" -O "$TEMP_FILE"
 
-if [ $? -ne 0 ]; then
-    echo "Error: Download failed"
-    exit 1
-fi
-
 echo "Download complete!"
 echo "Extracting to /opt/vscodium..."
 
