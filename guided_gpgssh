@@ -1,5 +1,5 @@
 #!/bin/bash
-# needs openssh and keychain pkg
+#needs: gpg openssh keychain 
 
 #gpg --full-generate-key 
 
