@@ -26,8 +26,8 @@ Setup & Usage
 4th: `./mods`
 
 > Downloads 4 essential zsh plugins placed in `~/.config/zsh/$plugin_name`
-> Provides prompts: zshrc, bashrc and shared aliases 
-> Sets-up local bin
+> Provides prompts: zshrc, bashrc, shared aliases, env file
+> Sets-up local bin and example script `hello`
 > Firefox profiles: Ublock and about:blank default
 
 >[!TIP]
