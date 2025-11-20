@@ -1,7 +1,6 @@
 #!/bin/bash
-export U_HOME="$HOME"
-export C_HOME="$U_HOME/.config/"
-export L_HOME="$U_HOME/.local/"
+export C_HOME="$HOME/.config/"
+export L_HOME="$HOME/.local/"
 
 export FIREFOX_DIR="/usr/lib/firefox"
 export DIST_DIR="$FIREFOX_DIR/distribution"
