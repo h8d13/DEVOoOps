@@ -1,4 +1,4 @@
-# DEVOops
+# DEVOoOps
 
 Goal is to make a dev **faster** than the next. Assumes fresh installation.
 
@@ -16,7 +16,7 @@ Setup & Usage
 
 > Downloads latest release of VSCodium installs to `/opt/vscodium`
 
-> Creates a symlink so you can call `code .` to open in current working directory
+> Creates a symlink so you can call `code .` to open in current working directory. **Open it once** to generate the vs-oss files.
 
 3rd: `./setup_asap` 
 
