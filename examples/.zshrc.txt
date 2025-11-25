@@ -1,10 +1,9 @@
 # Python settings
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-
 venv_prompt() {
   [[ -n "$VIRTUAL_ENV" ]] || return
-  local name=${VIRTUAL_ENV:t}       # basename
-  echo -n "-%F{red}[%F{green}$name%F{red}]%f"   # wrap color in %{ %}
+  local name=${VIRTUAL_ENV:t}
+  echo -n "─%F{red}[%F{green}$name%F{red}]%f"
 }
 
 # Completion init
