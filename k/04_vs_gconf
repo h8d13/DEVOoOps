@@ -1,4 +1,4 @@
 #!/bin/bash
 # Settings for terminal + general
 mkdir -p "$C_HOME/VSCodium/User"
-cp ./examples/settings.json "$C_HOME/VSCodium/User/settings.json"
+cat > "$C_HOME/VSCodium/User/settings.json" < ./examples/settings.json

@@ -4,8 +4,8 @@ Goal is to make a dev **faster** than the next. Assumes fresh installation.
 
 Also useful and pretty:
 ```
-┌──[12:02]─[hadean_$@vasex]─[~/DEVOops]─[12:02]─[git:master*]-[.venv]
-└──╼ $ 
+┌──[12:03]─[hadean_$@vasex]─[~/somewhere]─[12:02]─[git:master*]-[.venv]
+└──╼ $
 ```
 
 Setup & Usage
@@ -14,19 +14,19 @@ Setup & Usage
 >[!TIP]
 > None of these scripts require sudo. Will prompt when required. Also all defs are found in [header file.](./k/00_header) 
 
-1st: `./deps` 
+1st: `./deps`
 
 > To check you have all needed.
 
-2nd: `./setup_vs` 
+2nd: `./setup_vs`
 
 > Downloads latest release of VSCodium installs to `/opt/vscodium`
 
-> Creates a symlink so you can call `code .` to open in current working directory. **Open it once** to generate the vs-oss files. 
+> Creates a symlink so you can call `code .` to open in current working directory. **Open it once** to generate the vs-oss files.
 
-3rd: `./setup_asap` 
+3rd: `./setup_asap`
 
-> Extension inspired by David P. Cahill `Select after paste` but in raw JS. 
+> Extension inspired by David P. Cahill `Select after paste` but in raw JS.
 > Also sets zsh default for VSCodium and hot reload `CTRL + F5` and auto-indent after paste + word-wrap
 
 [Demo.webm](https://github.com/user-attachments/assets/72da25db-1a02-4ba3-a091-fc8dfb809380)
@@ -45,7 +45,7 @@ Open VSCodium again to check it works.
 > Any of them can be removed by simply deleting in the `k/` [dir](./k/) in [examples](./examples/)
 Firefox profiles: Ublock and about:blank default
 
-Remove checks from `00_header_checks`, adapt examples to liking/according to what you removed. 
+Remove checks from `00_header_checks`, adapt examples to liking/according to what you removed.
 
 Further tools
 ---
@@ -53,5 +53,6 @@ Further tools
 - https://open-vsx.org/vscode/item?itemName=timonwong.shellcheck
 - https://open-vsx.org/vscode/item?itemName=ms-pyright.pyright
 - https://open-vsx.org/vscode/item?itemName=charliermarsh.ruff
+- https://open-vsx.org/vscode/item?itemName=shardulm94.trailing-spaces
 
-See [guided](./guided/) setups for GPG and SSH. 
+See [guided](./guided/) setups for GPG and SSH.
