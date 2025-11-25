@@ -2,6 +2,12 @@
 
 Goal is to make a dev **faster** than the next. Assumes fresh installation.
 
+Also useful and pretty:
+```
+┌──[12:02]─[hadean_$@vasex]─[~/DEVOops]─[12:02]─[git:master*]-[.venv]
+└──╼ $ 
+```
+
 Setup & Usage
 ---
 
@@ -41,5 +47,6 @@ Further tools
 
 - https://open-vsx.org/vscode/item?itemName=timonwong.shellcheck
 - https://open-vsx.org/vscode/item?itemName=ms-pyright.pyright
+- https://open-vsx.org/vscode/item?itemName=charliermarsh.ruff
 
 See [guided](./guided/) setups for GPG and SSH. 

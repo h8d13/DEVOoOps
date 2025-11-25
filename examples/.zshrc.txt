@@ -1,4 +1,4 @@
-# Python settins
+# Python settings
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 venv_prompt() {
@@ -49,12 +49,26 @@ zstyle ':vcs_info:git:*' actionformats '%F{red}─[%F{yellow}git:%F{green}%b%F{r
 precmd() { vcs_info }
 
 # Prompt
-PROMPT='%F{red}┌──[%F{cyan}%D{%H:%M}%F{red}]─[%F{default}%n%F{red}@%F{cyan}%m%F{red}]─[%F{green}%~%F{red}]${vcs_info_msg_0_}
+PROMPT='%F{red}┌──[%F{cyan}%D{%H:%M}%F{red}]─[%F{default}%n%F{red}@%F{cyan}%m%F{red}]─[%F{green}%~%F{red}]${vcs_info_msg_0_}$(venv_prompt)
 %F{red}└──╼ %F{cyan}$ %f'
 
 # Source aliases and environment
 [ -f "$HOME/.config/aliases" ] && . "$HOME/.config/aliases"
 [ -f "$HOME/.config/environment" ] && . "$HOME/.config/environment"
+
+if [ -f /usr/share/fzf/key-bindings.zsh ]; then
+  source /usr/share/fzf/key-bindings.zsh
+fi
+if [ -f /usr/share/fzf/completion.zsh ]; then
+  source /usr/share/fzf/completion.zsh
+fi
+
+# fzf options # ctrl R, ctrl T and alt C
+
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git'
 
 # Syntax highlighting (MUST be at the end)
 plugin_file="$ZSH_CONFIG_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
