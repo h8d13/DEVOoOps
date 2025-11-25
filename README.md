@@ -55,7 +55,8 @@ You can also pipe to these directly or use them in scripts.
 [demo_zsh.webm](https://github.com/user-attachments/assets/7c87504d-8ba2-4ff9-a469-ea9ea931ea39)
 
 >[!IMPORTANT]
-> Any of them can be removed by simply deleting in the `k/` [dir](./k/) in [examples](./examples/)
+> Any of them can be removed by simply deleting in the `k/` [dir](./k/) AND adapt in [examples](./examples/)
+
 Firefox profiles: Ublock and about:blank default
 
 Remove checks from `00_header_checks`, adapt examples to liking/according to what you removed.
