@@ -56,10 +56,12 @@ You can also pipe to these directly or use them in scripts.
 
 >[!IMPORTANT]
 > Any of them can be removed by simply deleting in the `k/` [dir](./k/) AND adapt in [examples](./examples/)
+> Inversely you can also edit json/txt files to include many more settings and configs if needed !
 
 Firefox profiles: Ublock and about:blank default
 
 Remove checks from `00_header_checks`, adapt examples to liking/according to what you removed.
+
 
 <details>
 <summary><b>More things...</b></summary>
