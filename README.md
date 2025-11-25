@@ -29,7 +29,7 @@ Setup & Usage
 > Extension inspired by David P. Cahill `Select after paste` but in raw JS.
 > Also sets zsh default for VSCodium and hot reload `CTRL + F5` and auto-indent after paste + word-wrap
 
-[Demo.webm](https://github.com/user-attachments/assets/72da25db-1a02-4ba3-a091-fc8dfb809380)
+[Demo.webm](./guided/demo_vsc.webm)
 
 Open VSCodium again to check it works.
 
@@ -40,6 +40,19 @@ Open VSCodium again to check it works.
 
 > Sets-up local bin and example script `hello`
 
+[Demo.webm](./guided/demo_zsh.webm)
+
+Aliases can be edited in `~/.config/aliases` or using `ecomms` then `srcall` after adding something new (or open a new shell.)
+
+Env is controlled through `.config/environment`
+
+`Fzf/fd` shortcuts are:
+
+- Ctrl+T: "Find and paste a path" (files + dirs)
+- Alt+C: "Go to a directory" (dirs only, executes cd)
+- Ctrl+R: "Search command history" (you already know this)
+
+You can also pipe to these directly or use them in scripts.
 
 >[!NOTE]
 > Any of them can be removed by simply deleting in the `k/` [dir](./k/) in [examples](./examples/)
